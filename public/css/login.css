@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /* Importa la fuente Anton desde Google Fonts */
+
+.login {
+    min-height: 100vh; /* Establece la altura mínima del contenedor de inicio de sesión al 100% del viewport height */
+}
+  
+.bg-image {
+    background-image: url('../../images/FB_IMG_1713835355444.jpg'); /* Establece la imagen de fondo para el contenedor con la clase .bg-image */
+    background-size: cover; /* Escala la imagen de fondo para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+}
+  
+.login-heading {
+    font-weight: 300; /* Establece el peso de la fuente del encabezado de inicio de sesión */
+}
+  
+.btn-login {
+    font-size: 0.9rem; /* Establece el tamaño de fuente del botón de inicio de sesión */
+    letter-spacing: 0.05rem; /* Establece el espaciado entre letras del botón de inicio de sesión */
+    padding: 0.75rem 1rem; /* Establece el relleno del botón de inicio de sesión */
+}
